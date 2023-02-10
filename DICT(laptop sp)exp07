@@ -1,0 +1,27 @@
+CODE:
+laptop={ "Brand":"Asus",
+    	"Model":"Vivobook 15",
+   	"Processor":"Intel Core i5",
+ 	"RAM":8,
+ 	"Storage":"1TB",
+ 	"Graphics":"NVIDIA GeForce RTX 3080",
+    	"Screen_size":15.6 }
+print("Laptop Specification : ")
+print("Brand : ",laptop["Brand"])
+print("Model : ",laptop["Model"])
+print("Processor : ",laptop["Processor"])
+print("RAM : ",laptop["RAM"])
+print("Storage : ",laptop["Storage"])
+print("Graphics : ",laptop["Graphics"])
+print("Screen Size : ",laptop["Screen_size"])
+
+OUTPUT:
+Laptop Specification : 
+Brand :  Asus
+Model :  Vivobook 15
+Processor :  Intel Core i5
+RAM :  8
+Storage :  1TB
+Graphics :  NVIDIA GeForce RTX 3080
+Screen Size :  15.6
+
