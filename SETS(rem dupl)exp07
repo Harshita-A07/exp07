@@ -1,0 +1,13 @@
+CODE:
+list=[]
+for i in range(0,5):
+    list.append(i)
+    list.append(4)
+    list.append(5)
+print("Created list which contains duplicate elements : ",list)
+x=set(list)
+print("After creating set removes duplicate elements : ",x)
+
+OUTPUT:
+Created list which contains duplicate elements :  [0, 4, 5, 1, 4, 5, 2, 4, 5, 3, 4, 5, 4, 4, 5]
+After creating set removes duplicate elements :  {0, 1, 2, 3, 4, 5}
