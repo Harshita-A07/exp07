@@ -1,0 +1,20 @@
+CODE:
+car_components = ("Hood","Turbo","Doors","Steering","Doors")
+print("Length of tuple: ", len(car_components))
+print("Index of Doors: ", car_components.index("Doors"))
+print("Count of 2: ", car_components.count("Doors"))
+print("Minimum value: ", min(car_components))
+print("Maximum value: ", max(car_components))
+print("Tuple repetition: ", car_components * 3)
+more_car_components = ("Spoilers","Rims","Alloy Wheels")
+print("Tuple concatenation: ", car_components + more_car_components)
+
+OUTPUT:
+Length of tuple:  5
+Index of Doors:  2
+Count of 2:  2
+Minimum value:  Doors
+Maximum value:  Turbo
+Tuple repetition:  ('Hood', 'Turbo', 'Doors', 'Steering', 'Doors', 'Hood', 'Turbo', 'Doors', 'Steering', 
+'Doors', 'Hood', 'Turbo', 'Doors', 'Steering', 'Doors')
+Tuple concatenation:  ('Hood', 'Turbo', 'Doors', 'Steering', 'Doors', 'Spoilers', 'Rims', 'Alloy Wheels')
