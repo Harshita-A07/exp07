@@ -1,0 +1,42 @@
+CODE:
+liblist = ["Fiction", "Academics", "Novel", "Science Fiction", "Horror"]
+print("Length of list: ", len(liblist))
+liblist.append("Fictional Novel")
+print("After append: ", liblist)
+liblist.insert(0, "Story Books")
+print("After insert: ", liblist)
+more_liblist = ["Novel", "Science", "Projects"]
+conc= liblist + more_liblist
+print("List concatenation: ",conc)
+liblist.remove("Horror")
+print("After remove: ", liblist)
+popped = liblist.pop()
+print("Popped value: ", popped)
+print("After pop: ", liblist)
+print("Index of Novel: ", liblist.index("Novel"))
+print("Count of Novel: ", liblist.count("Novel"))
+liblist.sort()
+print("After sort: ", liblist)
+liblist.reverse()
+print("After reverse: ", liblist)
+print("Minimum value: ", min(liblist))
+print("Maximum value: ", max(liblist))
+print("List repetition: ", liblist * 3)
+OUTPUT:
+Length of list:  5
+After append:  ['Fiction', 'Academics', 'Novel', 'Science Fiction', 'Horror', 'Fictional Novel']
+After insert:  ['Story Books', 'Fiction', 'Academics', 'Novel', 'Science Fiction', 'Horror', 'Fictional Novel']
+List concatenation:  ['Story Books', 'Fiction', 'Academics', 'Novel', 'Science Fiction', 'Horror', 'Fictional 
+       Novel', 'Novel', 'Science', 'Projects']
+After remove:  ['Story Books', 'Fiction', 'Academics', 'Novel', 'Science Fiction', 'Fictional Novel']
+Popped value:  Fictional Novel
+After pop:  ['Story Books', 'Fiction', 'Academics', 'Novel', 'Science Fiction']
+Index of Novel:  3
+Count of Novel:  1
+After sort:  ['Academics', 'Fiction', 'Novel', 'Science Fiction', 'Story Books']
+After reverse:  ['Story Books', 'Science Fiction', 'Novel', 'Fiction', 'Academics']
+Minimum value:  Academics
+Maximum value:  Story Books
+List repetition:  ['Story Books', 'Science Fiction', 'Novel', 'Fiction', 'Academics', 'Story Books', 'Science 
+Fiction', 'Novel', 'Fiction', 'Academics', 'Story Books', 'Science Fiction', 'Novel', 
+'Fiction', 'Academics']
